@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Build-ID: 20261116-192415-b729 | shopwright public page (chefb14.github.io/shopwright) -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='impact-site-verification' value='7bdae50e-c0be-47c3-9901-8d00b1acf5c2'>
+<title>Shopwright — shop your list, pay the lowest total</title>
+<meta name="description" content="Shopwright prices your shopping list at the stores near you and shows the least expensive total, then hands you off to the store or delivery service to order.">
+<style>
+  :root { --ink:#16212b; --muted:#5b6b78; --line:#e3e8ec; --bg:#f7f9fa; --card:#fff; --accent:#1f7a4d; --accent-soft:#e7f3ec; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8eef2; --muted:#9db0bd; --line:#2a3640; --bg:#11181e; --card:#17212a; --accent:#4cc48a; --accent-soft:#183326; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 56px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:28px; }
+  header svg { flex:none; }
+  h1 { font-size:30px; line-height:1.2; margin:0; letter-spacing:-.01em; }
+  .tag { color:var(--muted); margin:2px 0 0; }
+  h2 { font-size:19px; margin:34px 0 10px; }
+  p { margin:0 0 12px; }
+  .lead { font-size:18px; }
+  ol, ul { margin:0 0 12px; padding-left:22px; }
+  li { margin:4px 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:14px 0; }
+  .note { background:var(--accent-soft); border-color:transparent; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+  .grid .card { margin:0; }
+  .grid b { display:block; margin-bottom:4px; }
+  footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg width="52" height="52" viewBox="0 0 52 52" aria-hidden="true">
+      <rect x="2" y="2" width="48" height="48" rx="12" fill="var(--accent)"/>
+      <path d="M15 20h22l-2 18H17z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M20 20v-3a6 6 0 0 1 12 0v3" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M21 26l5 5 3-3 4 4" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div>
+      <h1>Shopwright</h1>
+      <p class="tag">Shop your list. Pay the lowest total.</p>
+    </div>
+  </header>
+
+  <p class="lead">Shopwright takes your shopping list, prices it at the stores near you, and shows which store, or which two stores, give you the lowest total. Then you order on that store's own website or with the delivery service you choose.</p>
+
+  <h2>How it works</h2>
+  <ol>
+    <li><b>Make a list.</b> Type it, paste it from a store app or cart, or take a photo of a handwritten list.</li>
+    <li><b>Pick where and how far.</b> Use your location, an address or a ZIP code, and a distance for each kind of store: grocery, hardware, electronics or general.</li>
+    <li><b>Compare totals.</b> Shopwright prices every item at each nearby store and ranks the stores by total, including estimated sales tax, delivery fees and order minimums. It also shows the cheapest two-store split when that saves more.</li>
+    <li><b>Order your way.</b> Choose pickup or delivery, then go straight to the store's site or a delivery service to place the order.</li>
+  </ol>
+
+  <h2>Real prices only</h2>
+  <div class="grid">
+    <div class="card"><b>Store data</b>Prices come from retailers' own product data services where they offer one, plus shelf prices shoppers report through open data.</div>
+    <div class="card"><b>Your receipts</b>Prices you actually paid, and shelf prices you correct, are used for the stores where you shop.</div>
+    <div class="card"><b>No guessing</b>When no real price exists for an item, Shopwright says so instead of making one up. Every price shows where it came from and how old it is.</div>
+  </div>
+
+  <h2>Status</h2>
+  <p>Shopwright is in a private beta, used by its developer and a small group of invited people. It runs on phones, tablets and computers in the web browser.</p>
+
+  <h2>Affiliate disclosure</h2>
+  <div class="card note">
+    <p>Shopwright takes part, or applies to take part, in retailer affiliate programs, including Walmart's. That never changes how stores are ranked: the lowest real total always comes first.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Shopwright does not sell your data. It never stores your store passwords; your password manager signs you in to store sites. Each person sees only their own lists, receipts and orders.</p>
+
+  <footer>
+    <p>© 2026 Shopwright, built by Bill Bruzzone.</p>
+  </footer>
+</main>
+</body>
+</html>
